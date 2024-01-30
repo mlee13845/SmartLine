@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    height: 100%;
+    padding:0;
+    overflow-x: hidden;
+}
+html{
+    height: 100%;
+    width: 100%;
+}
+.header{
+    background-color: rgb(168, 28, 28);
+}
+.body{
+    background-color: rgb(243, 243, 231);
+}
+.footer{
+    background-color: rgb(243, 243, 231);
+}
+body{
+    display:flex;
+    flex-direction: column;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 19vh;
+    font-size: 400%;
+    height: 25%;
+}
+.body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 60%;
+    font-size: 200%;
+    
+}
+.user_options{
+   margin: .5%;
+   padding: 3%;
+   padding-left: 6%;
+   padding-right: 6%;
+   border-radius: 2vh;
+   background-color: rgb(168, 28, 28);
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 15%;
+}
+#donate_button{
+    margin: 2%;
+    padding: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    border-radius: 1vh;
+}
+.prompt{
+    padding-bottom: 3%;
+}
